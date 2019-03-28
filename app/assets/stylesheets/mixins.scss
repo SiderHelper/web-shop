@@ -1,0 +1,17 @@
+@mixin basic-link {
+  $color: #038cf4;
+
+  color: $color;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    background: transparent;
+    color: $color;
+    text-decoration: underline #aaa;
+  }
+
+  &:visited {
+    color: $color;
+  }
+}
